@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    "https://w3id.org/security/v1",
+  ],
+  "id": "https://fed.moang.com.br/caio",
+  "type": "Person",
+  "following": "https://fed.moang.com.br/following",
+  "followers": "https://fed.moang.com.br/followers",
+  "inbox": "https://fed.moang.com.br/inbox",
+  "outbox": "https://fed.moang.com.br/outbox",
+  "featured": "https://fed.moang.com.br/collections/featured",
+  "featuredTags": "https://fed.moang.com.br/collections/tags",
+  "preferredUsername": "caio",
+  "name": "Caio",
+  "summary": "",
+  "url": "https://fed.moang.com.br/caio.json",
+  "manuallyApprovesFollowers": false,
+  "discoverable": true,
+  "indexable": false,
+  "published": "2024-01-07T00:00:00Z",
+
+  "icon": {
+    "type": "Image",
+    "mediaType": "image/jpeg",
+    "url": "https://files.mastodon.social/accounts/avatars/111/712/881/757/763/941/original/da328497108fcdcf.jpg"
+  }
+}
