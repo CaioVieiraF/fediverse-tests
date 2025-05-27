@@ -3,7 +3,7 @@
     "https://www.w3.org/ns/activitystreams",
     "https://w3id.org/security/v1",
   ],
-  "id": "https://fed.moang.com.br/caio",
+  "id": "https://fed.moang.com.br/caio.json",
   "type": "Person",
   "following": "https://fed.moang.com.br/following",
   "followers": "https://fed.moang.com.br/followers",
