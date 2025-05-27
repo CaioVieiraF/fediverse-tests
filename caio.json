@@ -1,0 +1,73 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    "https://w3id.org/security/v1",
+    {
+      "manuallyApprovesFollowers": "as:manuallyApprovesFollowers",
+      "toot": "http://joinmastodon.org/ns#",
+      "featured": {
+        "@id": "toot:featured",
+        "@type": "@id"
+      },
+      "featuredTags": {
+        "@id": "toot:featuredTags",
+        "@type": "@id"
+      },
+      "alsoKnownAs": {
+        "@id": "as:alsoKnownAs",
+        "@type": "@id"
+      },
+      "movedTo": {
+        "@id": "as:movedTo",
+        "@type": "@id"
+      },
+      "schema": "http://schema.org#",
+      "PropertyValue": "schema:PropertyValue",
+      "value": "schema:value",
+      "discoverable": "toot:discoverable",
+      "suspended": "toot:suspended",
+      "memorial": "toot:memorial",
+      "indexable": "toot:indexable",
+      "attributionDomains": {
+        "@id": "toot:attributionDomains",
+        "@type": "@id"
+      },
+      "focalPoint": {
+        "@container": "@list",
+        "@id": "toot:focalPoint"
+      }
+    }
+  ],
+  "id": "https://fed.moang.com.br/caio.json",
+  "type": "Person",
+  "following": "https://fed.moang.com.br/following",
+  "followers": "https://fed.moang.com.br/followers",
+  "inbox": "https://fed.moang.com.br/inbox",
+  "outbox": "https://fed.moang.com.br/outbox",
+  "featured": "https://fed.moang.com.br/collections/featured",
+  "featuredTags": "https://fed.moang.com.br/collections/tags",
+  "preferredUsername": "Caio",
+  "name": "Caio",
+  "summary": "",
+  "url": "https://fed.moang.com.br/caio.json",
+  "manuallyApprovesFollowers": false,
+  "discoverable": true,
+  "indexable": false,
+  "published": "2024-01-07T00:00:00Z",
+  "memorial": false,
+  "attributionDomains": [
+    "moang.com.br"
+  ],
+  "publicKey": {
+    "id": "https://fed.moang.com.br#main-key",
+    "owner": "https://fed.moang.com.br/caio.json",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnQLzuby1AkkNmqydJvoM\ncmjXm25XO7TEUME/tb3T7Cod2UD1AplvlS5EPXD5DxG6uXM2UWcimhTs9mlYQBF8\ndOOvB88zArMKAWbCDSnsg41nsKSXfRCjkKNC694eXdfn9uutlgTJf0OHlbvyNEEQ\nndM8Xk+OFtgDFrKsErflzSl+qU/mnPez/O2ZlOBBCpc6lxeFh0LfmZKEoB/AoJmk\nI9GjcKh6u2HhONch6pjJDFBrTj+zXwbCU4QwrJiVfJt7Xq5yF4kmuOxMNDN2mQwn\nv3Ny5wjEiVLRcsBX9tp1sTf7tIH6nLjk4/zgoMxU+L3DYkm4rspTt3BJzryNxV7x\niQIDAQAB\n-----END PUBLIC KEY-----\n"
+  },
+  "tag": [],
+  "attachment": [],
+  "icon": {
+    "type": "Image",
+    "mediaType": "image/jpeg",
+    "url": "https://files.mastodon.social/accounts/avatars/111/712/881/757/763/941/original/da328497108fcdcf.jpg"
+  }
+}

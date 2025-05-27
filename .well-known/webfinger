@@ -1,0 +1,11 @@
+{
+  "subject":"acct:caio@fed.moang.com.br",
+  "aliases":[],
+  "links":[
+    {
+      "rel":"self",
+      "type":"application/activity+json",
+      "href":"https://fed.moang.com.br/caio.json"
+    },
+  ]
+}
